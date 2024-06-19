@@ -1,0 +1,35 @@
+.topnav{
+    background-color: #D8A099;
+}
+
+.topnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.topnav li{
+    float: left;     
+}
+
+.topnav li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.topnav li a:hover{
+    background-color: #F60947;
+    color: #ffffff;
+}
+
+.gizlimenu{
+    display:none;
+    position: absolute;
+    background-color: #4AADB9;
+}
+
+.menugoster:hover .gizlimenu{
+    display: block;
+}
